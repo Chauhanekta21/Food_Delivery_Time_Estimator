@@ -120,6 +120,8 @@ Use the Model in the Streamlit App
 - Checked for missing values with `isnull().sum()`.
 - Checked for duplicate rows.
 
+![data](images/inspection.png)
+
 ---
 
 ### 🔹 Data Cleaning & Transformation
@@ -136,9 +138,16 @@ Use the Model in the Streamlit App
 ### 🔹 Exploratory Data Analysis
 
 - Used pair plots to compare numeric variables.
-- Calculated correlations with `Delivery_Time_min` to find possible linear relationships.
-- Created a correlation heatmap for easier comparison.
+
+- Calculated correlations with Delivery_Time_min and visualized them using a correlation heatmap.
+
+![data](images/correlation.png)
+
+<hr>
+
 - Used an ANOVA test to compare average delivery times across weather, traffic, time of day, and vehicle type categories.
+
+![data](images/annova.png)
 
 ---
 
@@ -187,7 +196,15 @@ Use the Model in the Streamlit App
 
 - The training R² is 75.2% and test R² is 81.6%, so there is no major overfitting gap.
 
+- Plotted actual vs predicted delivery times to assess model performance; most predictions are close to actual values, indicating a good    model fit with a few larger errors.
+
+![data](images/actual_vs_prediction.png)
+
+<hr>
+
 - Residual plots show that most errors are close to zero, with a few larger positive errors.
+
+![data](images/residual.png)
 
 ---
 
@@ -220,7 +237,7 @@ Food_Delivery_Time_Estimator/
 |-- data/
 |   `-- food_delivery_data.csv
 |-- images/
-|   `-- 20 project images
+|   `-- 13 project images
 |-- jupyter_notebook/
 |   `-- food_delivery_time_prediction.ipynb
 |-- streamlit_app/
