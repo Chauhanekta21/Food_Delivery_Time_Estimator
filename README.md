@@ -161,7 +161,7 @@ Use the Model in the Streamlit App
 
 - Converted Weather and Traffic_Level into numeric indicator columns, making the data suitable for Linear Regression.
 
-![data](images/one_hot_encoding.png)
+![data](images/encoding.png)
 
 ---
 
