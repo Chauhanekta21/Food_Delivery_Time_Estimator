@@ -1,8 +1,8 @@
 # 📈 Food Delivery Time Estimator
 
-![data](images/thumbnail.png)
-
 > **Project Status: Completed**
+
+![data](images/thumbnail.png)
 
 ---
 
